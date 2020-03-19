@@ -1,4 +1,4 @@
-// Midterm exam – The C Programming Language, Spring 2020
+// Midterm exam – The C Programming Language, Spring 2020 //Youssef Chahine
 // (Coding section – 52 points)
 // POST ALL of this CODE to your ______.github.io portfolio.
 // (8 pts) (1) Find any and all mistakes in the following code, and correct them.
