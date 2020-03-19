@@ -1,4 +1,6 @@
-// Midterm exam – The C Programming Language, Spring 2020 //Youssef Chahine
+//Youssef Chahine
+
+// Midterm exam – The C Programming Language, Spring 2020//Youssef Chahine
 // (Coding section – 52 points)
 // POST ALL of this CODE to your ______.github.io portfolio.
 // (8 pts) (1) Find any and all mistakes in the following code, and correct them.
@@ -89,16 +91,21 @@ void square_delete(square* sq) {free(sq);} // TODO
 void square_move(square* sq, double x, double y){
 
   sq->ul = x;
-	sq->ul = y;
+  sq->ul = y;
 
 
 } // TODO
-void square_expandby(square* sq, double expandby); // TODO
+
+void square_expandby(square* sq, double expandby){
+
+sq->ul = expandby * sq->side;
+
+}// TODO
 double square_area(square* sq); // TODO
 
 double square_perimeter(square* r){
-  double per = r->side;
-  return 4 * per;
+  
+  return 4 * r->side;
 
 } // TODO
 // print location, side, area and perimeter
